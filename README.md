@@ -1,3 +1,7 @@
+**🚨 NOTE: This codebase is no longer being maintained. The repo we're actively working on is located at [maybe-finance/maybe](https://github.com/maybe-finance/maybe).**
+
+---
+
 ![](https://github.com/maybe-finance/maybe/assets/35243/79d97b31-7fad-4031-9e83-5005bc1d7fd0)
 
 # Maybe: Open-source personal finance app

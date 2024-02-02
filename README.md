@@ -93,12 +93,6 @@ To do so:
 
 That's it! As long as you run the project locally using `docker` with `pnpm dev:services:all` you'll be good to go.
 
-## Contributing
-
-To contribute, please see our [contribution guide](https://github.com/maybe-finance/maybe/blob/main/CONTRIBUTING.md).
-
-You can view organized issues on [our public Roadmap](https://github.com/maybe-finance/maybe/projects?query=is:open?type%3Dnew&query=is:open%20sort:title-asc). This is a great way to narrow down the most impactful ways to contribute.
-
 ## External data
 
 To pull market data in (for investments), you'll need a Polygon.io API key. You can get one for free [here](https://polygon.io/) and then add it to your `.env` file (`NX_POLYGON_API_KEY`). **Note:** If you're using the free "basic" plan, you'll need to manually sync stock tickers using the dev tools in the app the first time you run it. It will then be re-synced automatically every 24 hours. If you're using a paid tier, be sure to update your `.env` file with the correct tier (`NX_POLYGON_API_TIER`) and tickers and pricing will be synced automatically.
@@ -111,21 +105,10 @@ To pull market data in (for investments), you'll need a Polygon.io API key. You 
 -   Express
 -   Postgres (w/ Timescale)
 
-## Relevant reading
-
--   [Learn about how the app is organized as a monorepo](https://github.com/maybe-finance/maybe/wiki/Monorepo-File-Structure-Overview)
--   [Data model assumptions and calculations](https://github.com/maybe-finance/maybe/wiki/Data-model-assumptions-and-calculations)
--   [Handling money](https://github.com/maybe-finance/maybe/wiki/Handling-Money)
--   [REST API](https://github.com/maybe-finance/maybe/wiki/REST-API)
-
-## Repo Activity
-
-![Repo Activity](https://repobeats.axiom.co/api/embed/7866c9790deba0baf63ca1688b209130b306ea4e.svg 'Repobeats analytics image')
-
 ## Credits
 
 The original app was built by [Zach Gollwitzer](https://twitter.com/zg_dev), [Nick Arciero](https://www.narciero.com/) and [Tim Wilson](https://twitter.com/actualTimWilson), with design work by [Justin Farrugia](https://twitter.com/justinmfarrugia).
 
 ## Copyright & license
 
-Maybe is distributed under an [AGPLv3 license](https://github.com/maybe-finance/maybe/blob/main/LICENSE). "Maybe" is a trademark of Maybe Finance, Inc.
+Maybe is distributed under an [AGPLv3 license](https://github.com/maybe-finance/maybe-archive/blob/main/LICENSE). "Maybe" is a trademark of Maybe Finance, Inc.

@@ -10,6 +10,7 @@ import EditAccount from './EditAccount'
 import { DeleteAccount } from './DeleteAccount'
 import { RiArrowLeftLine } from 'react-icons/ri'
 import { useEffect, useMemo, useState } from 'react'
+import { AddStock } from './stock'
 
 export function AccountsManager() {
     const { accountManager: am, setAccountManager } = useAccountContext()
@@ -77,6 +78,11 @@ export function AccountsManager() {
                 return {
                     title: 'Add vehicle',
                     component: <AddVehicle defaultValues={am.defaultValues} />,
+                }
+            case 'add-stock':
+                return {
+                    title: 'Add investment',
+                    component: <AddStock defaultValues={am.defaultValues} />,
                 }
             case 'custom':
                 return { title: 'Custom account', component: am.component }
